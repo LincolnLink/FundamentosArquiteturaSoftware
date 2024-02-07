@@ -183,4 +183,37 @@
 
 # Orientação a Objetos - Polimorfismo
 
- - 
+ - siginificado: muitos comportamentos.
+
+ - override: sobrescrever a classe base.
+
+ - base(): siginifica que a classe herdada ja obriga a ter essa propriedade.
+
+ - Tipo virtual: não te obriga a sobrescerver os métodos, mas da a possibilidade.
+
+ - Tipo abstract : te obriga a sobreescrever os métodos.
+
+ - Status privado: só pode ser chamado esse método na classe.
+
+# Encapsulamento
+
+ - Esconder certos métodos de outras classes usando o status de privados,
+ para expor outro usando status publico, que ultiliza os privados.
+
+ - O que define o encapsulamento são os Modificador de acesso(status), quando é privado é porque está encapsulado.
+
+  - Public: Não é restrito.
+  - Protect: Só pode ser ultilizado quem herda ele.
+  - Internal: O acesso é limitado apenas pelo assemble, assemble é uma dll, vira dll quando compila um projeto, limitado por projeto.
+  - protect Internal:  sao classes limitada por assemble, e classees que deriva(que herda) daquela classe, não sao para classe apenas para metodo.
+  - private: o acesso é limitado apenas pela classe, classe privada nao pode ser chamada.
+  - private protected: herança ou se estão no mesmo assemble, não sao para classe apenas para metodo.
+  
+  - classe sealed: não pode ser herdada nem extender, só instancia.
+  - classe privada:
+  - class internal:
+  - classe abstract: nao pode instanciar apenas herdar, meotod deve ser sobreescrito.
+
+- 
+
+

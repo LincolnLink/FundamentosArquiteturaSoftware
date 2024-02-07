@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = DesignPatterns
 build_property.ProjectDir = P:\Projetos e Estudos\FundamentosArquiteturaSoftware\DesignPatterns\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
